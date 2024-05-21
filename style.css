@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+}
+
+.bg{
+    height:125vh;
+    width: 70vh;
+    position: absolute;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 70vh;
+    height: 20vh;
+    margin-top: 25vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.lg{
+    height: 17vh;
+}
+
+.logo p{
+    font-size: 5rem;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.right p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px 80px;
+    padding: 10px;
+    margin-left: 48px;
+    margin-right: 25vh;
+}
+
+h2{
+    margin-top: 5px;
+}
+
+.ele{
+    width: 200px;
+    margin: 42px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.right-bottom{
+    padding-left: 4rem;
+    padding-right: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey ;
+}
+
+.speaker-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input{
+    border: solid #E5E7EB;
+    border-radius: 4px;
+}
+
+.pass:invalid{
+    border: red solid;
+}
