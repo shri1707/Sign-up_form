@@ -45,7 +45,7 @@
                 </div>
                 <div class="ele">
                     <label for="mail">Email</label>
-                    <input type="email" id="mail" name="email">
+                    <input type="email" id="mail" name="email" placeholder="john@gmail.com">
                 </div>
                 <div class="ele">
                     <label for="number">Phone Number</label>
@@ -53,13 +53,22 @@
                 </div>
                 <div class="ele">
                     <label for="pass">Password</label>
-                    <input type="password" id="pass" name="password" class="pass">
+                    <input type="password" id="pass" name="password" class="pass" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z]).*" maxlength="30" minlength="8" required>
                 </div>
                 <div class="ele">
                     <label for="confPass">Confirm Password</label>
-                    <input type="password" id="confPass" name="confirmed_password" class="pass">
+                    <input type="password" id="confPass" name="confPass" class="pass" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z]).*" maxlength="30" minlength="8" required>
                 </div>
             </form>
+        </div>
+        <div class="btn">
+            <button value="Create Account" id="btn">Create Account</button>
+        </div>
+        <div class="end">
+            <span class="acc">
+                Already have an account?
+            </span>
+            <spaan class="log">Log in</spaan>
         </div>
     </div>
     <script src="script.js"></script>

@@ -1,27 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     display: flex;
     height: 100vh;
     background-color: #F6F7F8;
     border: 1px solid #D6D9DC;
 }
 
-.bg{
-    height:125vh;
+.bg {
+    height: 125vh;
     width: 70vh;
     position: absolute;
 }
 
-.background{
+.background {
     display: flex;
     flex-direction: column;
 }
 
-.logo{
+.logo {
     position: relative;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.568);
@@ -35,22 +35,23 @@ body{
     justify-content: center;
     gap: 10px;
 }
-.lg{
+
+.lg {
     height: 17vh;
 }
 
-.logo p{
+.logo p {
     font-size: 5rem;
 }
 
-.right{
+.right {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 18px;
 }
 
-.right p{
+.right-above p {
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0px 80px;
@@ -59,34 +60,71 @@ body{
     margin-right: 25vh;
 }
 
-h2{
-    margin-top: 5px;
+h2 {
+    margin-top: 10px;
 }
 
-.ele{
-    width: 200px;
-    margin: 42px;
-    margin-left: 0px;
-    margin-top: 20px;
+.ele {
+    width: 245px;
+    margin: 10px 60px 0px 0px;
+
 }
 
-.right-bottom{
-    padding-left: 4rem;
+.right-bottom {
+    padding-left: 3rem;
     padding-right: 100px;
     background-color: white;
-    box-shadow: 2px 2px 5px grey ;
+    box-shadow: 2px 2px 5px grey;
+    padding-bottom: 25px;
 }
 
-.speaker-form{
+.speaker-form {
     display: flex;
     flex-wrap: wrap;
 }
 
-input{
+input {
     border: solid #E5E7EB;
     border-radius: 4px;
 }
 
-.pass:invalid{
-    border: red solid;
+.pass:invalid {
+    outline: none;
+    border: 1px red solid;
+}
+
+form input {
+    font-size: 1rem;
+    padding: 4px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+form input:focus {
+    outline: none;
+    border: 1px solid rgb(12, 12, 255);
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+button{
+    margin-left: 3rem;
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #596D48;
+    cursor: pointer;
+}
+
+.end{
+    font-weight: bold;
+    margin-left: 3rem;
+}
+
+.log{
+    color: green;
 }
