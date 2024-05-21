@@ -78,6 +78,12 @@ h2 {
     padding-bottom: 25px;
 }
 
+.incorrect{
+    height: 20px;
+    color: red;
+    font-size: 10px;
+}
+
 .speaker-form {
     display: flex;
     flex-wrap: wrap;
@@ -91,6 +97,11 @@ input {
 .pass:invalid {
     outline: none;
     border: 1px red solid;
+}
+
+.pass:valid{
+    outline: none;
+    border: 1px solid rgb(12, 12, 255);
 }
 
 form input {
